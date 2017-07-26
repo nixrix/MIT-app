@@ -1,0 +1,52 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+button{
+	background-color: gray;
+	display: block;
+	color: white;
+}
+.button-two{
+	background-color: teal;
+}
+#third-button{
+	background-color:yellow;
+	color:grey;}
+
+ul{
+	margin: 0;
+}
+
+/* HEADER STYLES */
+header{
+	height: 35px;
+	background: linear-gradient(141deg, #df42f4 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+header ul li{
+	display: inline-block;
+	list-decoration: none;
+	margin-left: 15px;
+}
+
+/*HERO IMAGE*/
+.hero{
+	min-width: 100%;
+	height:500px;
+	background: url(./img/lake.jpeg);
+	background-size: cover;
+	background-repeat: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.hero h1{
+	color:#fff;
+	margin: 0;
+	font-size: 50px;
+
+}
