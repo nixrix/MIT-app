@@ -1,60 +1,76 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-	<head>
-		<!-- Meta tags -->
-		<title>This is my webpage!</title>
-		<link rel="stylesheet" type="text/css" href="./reset.css">
-		<link rel="stylesheet" type="text/css" href="./css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-	</head>
-	<body>
-		<!-- HEADER -->
-		<header>
-			<ul>
-				<li>
-					<a href="./index.html">Home</a>
-				</li>
-				<li>
-					<a href="./about.html">About</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/nicolaarnold">Twitter</a>
-				</li>
-			</ul>
-		</header>
+  <head>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 
-		<!-- NOTE: Remove the inlince CSS when stylesheet is made! -->
-		<!-- <img src="./img/lake.jpeg" alt="lakehouse amongst trees image" style="max-width:100%;"> -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
-		<div class="hero--lake">
-			<div class="shader"></div>
-			<h1>Welcome!</h1>
-		</div>
+  </head>
+  <body>
 
-		<!-- P DIV : text -->
-		<div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- Let's build our header component -->
+    <header>
+      <div>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
 
-		</div>
+    <div class="hero hero--lake">
+      <div class="shader"></div>
+      <div class="text-center">
+        <h1>Who we are</h1>
+        <h2 class="hero-btn">Button</h2>
+      </div>
+    </div>
 
-		<div class="hero--galaxy">
-			<div class="shader"></div>
-			<h1>Welcome!</h1>
-		</div>
+    <div class="container mt-5 mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Here's a heading</h1>
+          <p>
+            Crucifix scenester shoreditch tacos heirloom schlitz tumeric farm-to-table listicle bicycle rights kale chips. Heirloom edison bulb actually gastropub, direct trade palo santo humblebrag jianbing semiotics four dollar toast pour-over 3 wolf moon pabst af. Iceland pickled tilde cred. Mixtape street art sriracha four dollar toast trust fund brunch echo park. 90's locavore kinfolk echo park butcher retro vice knausgaard meggings yuccie slow-carb chambray. Vice sustainable church-key prism distillery four dollar toast. Narwhal authentic typewriter green juice 8-bit next level meh. Hot chicken williamsburg taxidermy trust fund hell of echo park edison bulb lyft mustache letterpress locavore kale chips lumbersexual. Shaman tofu viral selfies semiotics small batch cold-pressed hexagon VHS fixie. Hella lo-fi +1 8-bit vaporware PBR&B authentic venmo chia readymade.
+          </p>
+          <a href="./about.html">Our Team</a>  
+        </div>    
+        <div class="col-md-6">
+          <img src="./img/startup.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
 
-	</body>
+    <div class="hero hero--galaxy">
+      <div class="shader"></div>
+      <div class="text-center">
+        <h1>Our Work</h1>
+        <br />
+        <h2 class="hero-btn">Button</h2>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row align-items-center">
+        <div class="col-xs-10 col-md-6">
+          <h1>Here's a heading</h1>
+          <p>
+            Crucifix scenester shoreditch tacos heirloom schlitz tumeric farm-to-table listicle bicycle rights kale chips. Heirloom edison bulb actually gastropub, direct trade palo santo humblebrag jianbing semiotics four dollar toast pour-over 3 wolf moon pabst af. Iceland pickled tilde cred. Mixtape street art sriracha four dollar toast trust fund brunch echo park. 90's locavore kinfolk echo park butcher retro vice knausgaard meggings yuccie slow-carb chambray. Vice sustainable church-key prism distillery four dollar toast. Narwhal authentic typewriter green juice 8-bit next level meh. Hot chicken williamsburg taxidermy trust fund hell of echo park edison bulb lyft mustache letterpress locavore kale chips lumbersexual. Shaman tofu viral selfies semiotics small batch cold-pressed hexagon VHS fixie. Hella lo-fi +1 8-bit vaporware PBR&B authentic venmo chia readymade.
+          </p>
+          <a href="./about.html">Our Team</a>  
+        </div>    
+        <div class="col-xs-12 col-md-6">
+          <img src="./img/startup.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
